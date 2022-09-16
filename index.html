@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+
+    <link
+    rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+    rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap">
+
+    <link
+    rel="stylesheet" href="./css/styles.css">
+
+    <script
+    src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              timerblack: '#4D4C59',
+              textbuttonpurple: '#6C63FF',
+              smalltextgray: '#C8C8C8',
+              mediumtextgray: '#9C9AB6',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+
+  <body style="font-family: 'Poppins', sans-serif;">
+    <div class="w-screen absolute top-0">
+      <img
+      src="./assets/top-image.svg"
+      class="w-full">
+    </div>
+
+    <main
+    class="flex justify-around h-screen my-auto">
+      <div
+      class="flex flex-col justify-center items-center
+      w-full md:max-w-5/12 xl:w-1/2">
+        <h1
+          class="text-textbuttonpurple font-bold text-center tracking-wider text-2xl md:text-4xl lg:text-5xl md:tracking-widest pb-6">
+          READY TO LAUNCH IN...
+        </h1>
+        <ul
+          class="flex gap-10 text-xs md:gap-20 lg:gap-28 md:text-sm text-smalltextgray pb-4">
+          <li>Dias</li>
+          <li>Horas</li>
+          <li>Minutos</li>
+          <li>Segundos</li>
+        </ul>
+        <h2
+          class="text-5xl md:text-7xl lg:text-8xl pb-6 flex gap-2 md:gap-4">
+          <span>08</span><span>:</span><span>12</span><span>:</span><span>44</span><span>:</span><span>28</span>
+        </h2>
+        <p class="text-sm text-center lg:text-base text-mediumtextgray pb-6 md:pb-10">
+          Inscreva-se para saber mais sobre o lançamento
+        </p>
+        <a
+          href="#"
+          class="bg-textbuttonpurple text-white py-2 px-4 rounded-lg md:py-3 md:px-6 hover:bg-gradient-to-r from-purple-500 to-pink-500">
+          Inscreva-se
+        </a>
+      </div>
+
+      <div
+      class="flex hidden md:w-5/12 lg:flex lg:w-2/5">
+        <img
+        src="./assets/rocket.svg"
+        class="w-full pr-4 xl:pr-0">
+      </div>
+    </main>
+
+    <div class="w-screen absolute bottom-0">
+      <img src="./assets/bottom-image.svg" class="w-full">
+    </div>
+  </body>
+</html>
