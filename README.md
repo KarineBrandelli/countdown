@@ -1,20 +1,24 @@
-<h1 align="center"> Countdown </h1>
+<h1 align="center"> Countdown ⏱️</h1>
 
-## Layout
+<p align="center">
+  Uma aplicação web de um countdown desenvolvida com Tailwind e JavaScript.
+</p>
 
-<br>
+------
+## Como acessar a página?
 
-![preview](./assets/countdown.png)
+Você pode acessar a aplicação utilizando um computador, tablet ou celular clicando [nesse](https://karinebrandelli.github.io/countdown-js/) link.
 
-## Descrição
+Se você quiser clonar o repositório em sua máquina, não é necessário fazer nenhum tipo de instalação para sua utilização.
 
-A página representa um countdown programado para terminar a contagem na data do meu aniversário. Foi desenvolvido a partir do conhecimento obtido no programa Discover, disponível gratuitamente no site da [Rocketseat](https://www.rocketseat.com.br/).
+<p align="center">
+  <img alt="App Layout" src="https://user-images.githubusercontent.com/108953489/215283069-f1a41679-6d0d-4f24-9f28-0a7764705042.gif" width="80%">
+</p>
 
-## Tecnologias
+## Tecnologias utilizadas
 
-O projeto foi desenvolvido com as seguintes tecnologias:
+Tecnologias utilizadas e suas documentações:
 
-- HTML
-- Tailwind
-- JavaScript
-
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Tailwind](https://tailwindcss.com/)
+- [JavaScript](https://www.javascript.com/)
